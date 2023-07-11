@@ -1,0 +1,278 @@
+/* common style*/
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+.common-width {
+    max-width: 1440px;
+}
+
+.common-btn {
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 45px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0;
+}
+
+#section-title-common {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+/* Header style */
+.header-part {
+    display: flex;
+    justify-content: space-between;
+    background-color: #E554731A;
+    padding: 0 240px;
+}
+
+#header-img {
+    width: 635px;
+    height: 800px;
+    padding-left: 50px;
+}
+
+#header-info {
+    margin-top: 190px;
+}
+
+.header-title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.header-details {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+
+/* Main part start*/
+
+/* Featured part*/
+
+.featuer-box-main {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#featuer-main {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 180px;
+}
+
+
+
+#featuer-main p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.featuer-box {
+    width: 460px;
+    height: 538px;
+    gap: 24px;
+    flex-shrink: 0;
+    margin-top: 50px;
+}
+
+
+
+#featuer-box-one {
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(167, 33, 98, 0.15);
+}
+
+#featuer-box-two {
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(5, 151, 160, 0.15);
+}
+
+#featuer-box-three {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.text-style {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+
+/* extra part start*/
+
+.support {
+    display: flex;
+    border-radius: 8px;
+    background-color: rgba(39, 39, 39, 0.05);
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.support-box {
+    padding: 85px 175px;
+}
+
+/*  Hot Deals Start*/
+
+.hot-deals {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+    background-color: rgba(229, 84, 115, 0.05);
+    margin: 128px auto;
+    padding: 100px;
+}
+
+.hot-deals-info {
+    text-align: center;
+}
+
+.hot-deals-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.hot-deals-details {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/* instagram Start */
+.instagram {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.instagram p {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.instagram-img {
+    display: flex;
+    gap: 24px;
+}
+
+/* Latest Deals Start*/
+.latest-deals {
+    background-image: url(Flower-Asset/Rectangle\ 9.png);
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 128px;
+}
+
+.latest-deals button {
+    padding: 23px 30px;
+}
+
+.latest-deals input {
+    width: 700px;
+    height: 64px;
+    margin-right: 20px;
+    border-radius: 8px;
+    border: 0;
+}
+
+.latest-deals-info {
+    padding: 125px 185px;
+}
+
+/* bonus Section*/
+.my-team {
+    margin: 130px auto;
+    text-align: center;
+    background-color: rgba(194, 207, 208, 0.15);
+    padding: 50px 20px;
+    height: 650px;
+    box-shadow: 10px 20px 8px 10px #888888;
+
+}
+
+.team-title {
+    text-align: center;
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.team-span {
+    color: #E55473;
+
+}
+
+.team-info {
+    display: flex;
+}
+
+.team-box img {
+    width: 75%;
+    height: 75%;
+}
+
+
+/* Footer Start*/
+footer {
+    background-color: black;
+    padding: 8px 780px;
+    margin: 0;
+}
+
+footer h1 {
+    color: white;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+}
+
+footer h4 {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+footer p {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#footer-span {
+    color: #E55473;
+
+}
